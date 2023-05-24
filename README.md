@@ -3,7 +3,7 @@
 
 <h2>About the project</h2>
 
-  <p>A <b>car rental</b> Being a word enthusiast myself, I decided to build a dictionary website based on <a href="https://dexonline.ro/>dexonline</a>, but with less functionality due to the limited API that I used, which isn't very rich in providing informations about the fetched words (such as synonyms, antonyms or origin of the word, a lot of words fetched contain empty strings). </p>
+  <p>Being a word enthusiast myself, I decided to build a dictionary website based on <a href="https://dexonline.ro/">dexonline</a>, but with less functionality due to the limited API that I used, which isn't very rich in providing informations about the fetched words (such as synonyms, antonyms or origin of the word, a lot of words fetched contain empty strings). </p>
 
 👉 Live Demo: <a href='https://razvi42.github.io/dex-online/'>Live Demo</a>
 
