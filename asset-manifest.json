@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dex-online/static/css/main.2545afaf.css",
-    "main.js": "/dex-online/static/js/main.dc12136e.js",
+    "main.css": "/dex-online/static/css/main.fe39908e.css",
+    "main.js": "/dex-online/static/js/main.ac686320.js",
     "static/media/logo.svg": "/dex-online/static/media/logo.929b959780791bacd11ee07d2d74036f.svg",
     "static/media/logoDarkMode.svg": "/dex-online/static/media/logoDarkMode.2da0a39ff7ac48b602f25797c8758dcf.svg",
     "index.html": "/dex-online/index.html",
-    "main.2545afaf.css.map": "/dex-online/static/css/main.2545afaf.css.map",
-    "main.dc12136e.js.map": "/dex-online/static/js/main.dc12136e.js.map"
+    "main.fe39908e.css.map": "/dex-online/static/css/main.fe39908e.css.map",
+    "main.ac686320.js.map": "/dex-online/static/js/main.ac686320.js.map"
   },
   "entrypoints": [
-    "static/css/main.2545afaf.css",
-    "static/js/main.dc12136e.js"
+    "static/css/main.fe39908e.css",
+    "static/js/main.ac686320.js"
   ]
 }
