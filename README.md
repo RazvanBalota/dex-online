@@ -15,6 +15,6 @@ A car rental website is an online platform that allows users to rent cars for pe
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='https://imgur.com/vyQ94pv'/>
+<img src='https://i.imgur.com/vyQ94pv.png'/>
 
 </div>
