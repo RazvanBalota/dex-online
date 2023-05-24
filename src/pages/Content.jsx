@@ -29,20 +29,20 @@ export default function Content() {
   return (
     <div className=" bg-[#f1f1f1] dark:bg-[#121212]">
       <Nav />
-      <div className="flex justify-center">
-        <div className="w-96 pt-10 pl-4">
+      <div className="flex justify-center px-10">
+        <div className="pt-10 ">
           <Link to="/dex-online">
-            <div className="bg-logo dark:bg-logoDark  bg-no-repeat w-96 h-20 "></div>
+            <div className="bg-logo dark:bg-logoDark  bg-no-repeat w-80 h-20 "></div>
           </Link>
-          <p className="text-right text-gray-800 dark:text-textDark tracking-wide text-sm pr-16">
+          <p className="text-right text-gray-800 dark:text-textDark tracking-wide text-sm px-2 lg:px-24">
             Dictionary of English language
           </p>
         </div>
       </div>
       <SearchFunction />
-      <div className="container mx-auto px-7 w-full  lg:w-[930px] ">
+      <div className="container mx-auto px-7 max-w-full  lg:w-[930px] ">
         {/* display definitions */}
-        <div className="pt-10 flex">
+        <div className="pt-10 flex w-[150px] ">
           <div className=" py-1 flex gap-x-2 text-sm text-black dark:text-textDark">
             <div className="px-4 py-2 border-2 border-b-0 dark:border-textDark cursor-pointer">
               <p>synthesis</p>
@@ -54,9 +54,6 @@ export default function Content() {
             </div>
             <div className="px-4 py-2 border-2 border-b-0 dark:border-textDark cursor-pointer">
               <p>declinations</p>
-            </div>
-            <div className="px-4 py-2 border-2 border-b-0 dark:border-textDark cursor-pointer">
-              <p>articles</p>
             </div>
           </div>
         </div>
@@ -85,7 +82,7 @@ export default function Content() {
                 </>
               ))}
               <div>{error && <p className="text-[#121212] dark:text-white pt-12 px-6 tracking-wide">{error}</p>}</div>
-              <div className=" flex gap-x-2 items-center pt-16 px-8 text-sm tracking-wide pb-2">
+              <div className=" flex gap-x-2 items-center pt-16 text-sm tracking-wide pb-2">
                 <AiFillInfoCircle className="text-dark dark:text-white" />
                 <p className="text-secondary dark:text-textDark">
                   The full list of definitions are on definitions file.

@@ -8,10 +8,10 @@ function Hero() {
     <section className="bg-[#f9f9f9] dark:bg-[#121212]">
       <Nav />
 
-      <div className="flex justify-center">
-        <div className="w-96 pt-10 pl-4">
-          <div className="bg-logo dark:bg-logoDark  bg-no-repeat w-96 h-20 "></div>
-          <p className="text-right text-gray-800 dark:text-textDark tracking-wide text-sm pr-16">
+      <div className="flex justify-center px-10">
+        <div className="pt-10 ">
+          <div className="bg-logo dark:bg-logoDark  bg-no-repeat w-80 h-20 "></div>
+          <p className="text-right text-gray-800 dark:text-textDark tracking-wide text-sm px-2 lg:px-24">
             Dictionary of English language
           </p>
         </div>
@@ -27,15 +27,6 @@ function Hero() {
         </p>
       </div>
       <Footer />
-
-      {/* {results?.map((meaning) => {
-        return <div>{meaning.partOfSpeech}</div>;
-      })}
-      {results?.map((mean) =>
-        mean.definitions?.map((def) => {
-          return <li>{def.definition}</li>;
-        })
-      )} */}
     </section>
   );
 }
